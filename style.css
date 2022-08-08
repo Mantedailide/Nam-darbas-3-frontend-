@@ -83,8 +83,17 @@ cursor: pointer;
 border-radius: 70px;
 }
 
+.black-text2 {
+color: black;
+}
+
+.black-text2:hover {
+color:black;
+}
+
 .learn-more:hover {
 border-color: black;
+color:black;
 }
 
 .grey-picture2 {
