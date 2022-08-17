@@ -19,10 +19,30 @@ margin-top: 50px;
 margin-bottom: 50px;
 }
 
+.image {
+width:100%;
+height:100%;
+position: relative;
+}
+
 .grey-picture {
 width:560px;
 height:560px;
 margin-bottom: 50px;
+}
+
+.golfino-awards {
+width:460px;
+height:460px;
+position: absolute;
+left:50px;
+top:50px;
+opacity: 0;
+transition: all 0.7s ease;
+}
+
+.golfino-awards:hover {
+opacity: 1;
 }
 
 .black-text1 {
@@ -102,12 +122,6 @@ height:364px;
 margin-bottom: 20px;
 margin-top: 20px;
 }
-
-.grey-picture21:hover {
-background: url(C:\Users\Mantė\OneDrive\Documents\Mokymosi_projektai\14 Kurso vidurio užduotis\Namų darbas 3 (frontend)golfino awards.png) 
-}
-
-
 
 .grey-picture3 {
 width:364px;
